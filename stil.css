@@ -32,27 +32,53 @@ ul, li {
     }
     
   h1{color: maroon;}
-  h2 {
-    color: black; 
-  }
-	.thumbnail img {
-    max-width: 100%;
-	  height: auto;
-	}
-	.thumbnail {
-	  border: 2px solid black;
-	}
-	.thumbnail img:hover {
-	  opacity: 0.7; 
-	}	
-	.jezero {
-	  display: none;
-	}
-	.banja {
-	  display: none;
-	}
-a {
-  display: block;
-}
+
+  p {
+    font-size: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    }
     
+    div.gallery {
+    margin: 80px;
+    border: 1px solid #001838;
+    float: left;
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    div.gallery:hover {
+    border: 1px solid #001838;
+    }
+    
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+    
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+    
+    body {
+    background: linear-gradient(-45deg, #121212, #242424, #001838, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+    }
   
