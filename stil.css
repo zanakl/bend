@@ -15,8 +15,8 @@ ul, li {
     padding: 2px 0px 2px 5px;
     width: 120px;
     color: rgb(5, 22, 54);
-    font-size: 30px;
     font-weight: bold;
+    font-size: 24px;
     border-left: 5px solid rgb(5, 22, 54) ;
     }
     
@@ -27,4 +27,4 @@ ul, li {
     border-left-color: lightgreen;
     }
     
- 
+  
