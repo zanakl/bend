@@ -1,6 +1,6 @@
 body
 
-{ background-color: gray;}
+{ background-color:black;}
 
 ul, li {
     list-style: none;
@@ -14,10 +14,10 @@ ul, li {
     margin: 1px;
     padding: 2px 0px 2px 5px;
     width: 120px;
-    color: rgb(5, 22, 54);
+    color: lightgrey;
     font-weight: bold;
     font-size: 24px;
-    border-left: 5px solid rgb(5, 22, 54) ;
+    border-left: 5px solid lightgrey ;
     }
     
     /* dinamički efekt za izbornik */
