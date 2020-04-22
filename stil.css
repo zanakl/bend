@@ -14,14 +14,15 @@ ul, li {
     margin: 1px;
     padding: 2px 0px 2px 5px;
     width: 120px;
-    color: cornflowerblue;
+    color: rgb(5, 22, 54);
     font-weight: bold;
-    border-left: 5px solid cornflowerblue;
+    border-left: 5px solid rgb(5, 22, 54) ;
     }
     
     /* dinamički efekt za izbornik */
     ul li a:hover {
     text-decoration: none;
+    color: lightgreen;
     border-left-color: lightgreen;
     }
     
@@ -31,12 +32,13 @@ ul, li {
     margin: 1px 1px 1px 15px;
     padding: 2px 0px 2px 5px;
     width: 108px;
-    color: cornflowerblue;
+    color: rgb(5, 22, 54);
     font-weight: bold;
-    border-left: 3px solid cornflowerblue;
+    border-left: 3px solid rgb(5, 22, 54);
     }
     /* dinamički efekt za podizbornik */
     ul ul li a:hover {
     text-decoration: none;
+    color: lightgreen;
     border-left-color: lightgreen;
     }
