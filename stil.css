@@ -26,19 +26,4 @@ ul, li {
     border-left-color: lightgreen;
     }
     
-    ul ul li a, ul ul li a:visited {
-    display: block;
-    text-decoration: none;
-    margin: 1px 1px 1px 15px;
-    padding: 2px 0px 2px 5px;
-    width: 108px;
-    color: rgb(5, 22, 54);
-    font-weight: bold;
-    border-left: 3px solid rgb(5, 22, 54);
-    }
-    /* dinamički efekt za podizbornik */
-    ul ul li a:hover {
-    text-decoration: none;
-    color: lightgreen;
-    border-left-color: lightgreen;
-    }
+ 
