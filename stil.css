@@ -23,8 +23,8 @@ ul, li {
     /* dinamički efekt za izbornik */
     ul li a:hover {
     text-decoration: none;
-    color: mediumpurple;
-    border-left-color: mediumpurple;
+    color: orangered;
+    border-left-color: orangered;
     }
 
     body {
@@ -32,7 +32,8 @@ ul, li {
     }
     
   h1{color: maroon;
-text-align: center;}
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
   
   
