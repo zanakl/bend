@@ -17,10 +17,12 @@ h2{
 }
 
 div.prvi{
+    position: fixed;
     top: 89px;
     left: 627px;
 }
 div.drugi{
-    top: 89px;
-    left: 10px;
+    position: relative;
+    top: 0px;
+    left:0px;
 }
