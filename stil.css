@@ -26,14 +26,20 @@ ul, li {
     color: orangered;
     border-left-color: orangered;
     }
-
-    body {
-	  
-    }
     
-  h1{color: maroon;
-text-align: center;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h1{
+  color: maroon;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+p.citat{
+    font-style:italic;
+    font-size: 20px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: #ffffcc;
+}
 
   
   
