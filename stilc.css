@@ -14,4 +14,13 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     font-style: italic;
+    text-align: center;
+}
+
+div.prvi{
+    text-align: center;
+}
+
+div.prvi{
+    font-size: 20px;
 }
