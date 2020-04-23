@@ -17,8 +17,8 @@ h2{
 }
 
 div.prvi{
-    position: fixed;
-    top: 50px;
+    position: relative;
+    top: -220px;
     left: 590px;
 }
 div.drugi{
