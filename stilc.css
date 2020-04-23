@@ -21,6 +21,9 @@ div.prvi{
     text-align: center;
 }
 
-div.prvi{
-    font-size: large;
+h3{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
 }
