@@ -23,8 +23,8 @@ ul, li {
     /* dinamički efekt za izbornik */
     ul li a:hover {
     text-decoration: none;
-    color: orangered;
-    border-left-color: orangered;
+    color: slategray;
+    border-left-color: slategray;
     }
     
 h1{
