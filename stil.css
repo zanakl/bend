@@ -37,7 +37,12 @@ p.citat{
     font-style:italic;
     font-size: 20px;
     border: 1px solid #000;
-    border-width: 10cm;
+    border-top: 1cm;
+    border-left: 10cm;
+    border-right: 10cm;
+    border-bottom: 0cm;
+    
+
     text-align: center;
     background-color: #ffffcc;
 }
