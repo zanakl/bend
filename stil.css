@@ -47,39 +47,8 @@ p.citat{
     background-color: #ffffcc;
 }
 
-#jahaci {
-  color: #000;
-  border-bottom: 2px solid #455372;
-  margin-top: 50px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding: 1px;
-  padding-left: 30px;
-}
-#jahaci li {
-  display: inline;
-}
-#jahaci li a {
-  color: #000;
-  background: #d9dbe1;
-  border: 2px solid #455372;
-  padding: 3px 5px 1px 5px;
-  margin: 0px;
-  text-decoration: none;
-}
-#jahaci li a:hover {
-  border-bottom: 2px solid white;
-  background-color: #eee;
-  color: #455372;
-}
-#jahaci li a:active {
-  color: #c00;
-}
-#jahaci li a#aktivni {
-  color: #000;
-  background: #fff;
-  border-bottom: 2px solid white;
+div.drustveno{
+  align-items: flex-end;
 }
 
   
