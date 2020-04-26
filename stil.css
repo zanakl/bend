@@ -48,7 +48,8 @@ p.citat{
 }
 
 div.prvi{
-  align-items: flex-end;
+  position: relative;
+  left: 1200px;
 }
 
   
