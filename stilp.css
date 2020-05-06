@@ -1,6 +1,30 @@
 body
 
 { background-color: plum;}
+ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    ul li a, ul li a:visited {
+    display: block;
+    text-decoration: none;
+    margin: 1px;
+    padding: 2px 0px 2px 5px;
+    width: 120px;
+    color: lightgrey;
+    font-weight: bold;
+    font-size: 24px;
+    border-left: 5px solid lightgrey ;
+    }
+    
+    /* dinamički efekt za izbornik */
+    ul li a:hover {
+    text-decoration: none;
+    color: maroon;
+    border-left-color: maroon;
+    }
 h1{
     color: black;
     font-weight: bold;
