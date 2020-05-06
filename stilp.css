@@ -1,7 +1,7 @@
 body
 
 { background-color: plum;}
-ul, li {
+div.treci {
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -43,7 +43,7 @@ h2{
 
 div.prvi{
     position: relative;
-    top: -230px;
+    top: -540px;
     left: 590px;
 }
 div.drugi{
