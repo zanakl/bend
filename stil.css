@@ -59,6 +59,8 @@ position: relative;
 }
 
 .thumbnail img{
+  position: relative;
+  left: 540px;
 border: 1px solid white;
 margin: 0 5px 5px 0;
 }
