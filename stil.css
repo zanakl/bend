@@ -3,8 +3,10 @@ body
 { background-color:black;}
 
 div.tablica{
-  color: white;
-  border: maroon;
+  color: darkturquoise;
+  border: floralwhite;
+  position: relative;
+  left: 550px;
 }
 
 ul, li {
