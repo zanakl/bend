@@ -35,7 +35,7 @@ div.nes {
     padding: 0px;
     }
     
-    ul li a, ul li a:visited {
+    div.nes:visited {
     display: block;
     text-decoration: none;
     margin: 1px;
@@ -48,7 +48,7 @@ div.nes {
     }
     
     /* dinamički efekt za izbornik */
-    ul li a:hover {
+    div.nes:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
     border-left-color: rgb(0, 0, 0);
