@@ -60,95 +60,7 @@ p{
   color: white;
 }
 
-<style type="text/css">
 
-.gallerycontainer{
-position: relative;
-/*Add a height attribute and set to largest image's height to prevent overlaying*/
-}
-
-.thumbnail img{
-
-border: 1px solid white;
-margin: 0 5px 5px 0;
-}
-
-.thumbnail:hover{
-background-color: transparent;
-}
-
-.thumbnail:hover img{
-border: 1px solid blue;
-}
-
-.thumbnail span{ /*CSS for enlarged image*/
-position: absolute;
-background-color: lightyellow;
-padding: 5px;
-left: -1000px;
-border: 1px dashed gray;
-visibility: hidden;
-color: black;
-text-decoration: none;
-}
-
-.thumbnail span img{ /*CSS for enlarged image*/
-border-width: 0;
-padding: 2px;
-}
-
-.thumbnail:hover span{ /*CSS for enlarged image*/
-visibility: visible;
-top: 0;
-left: 230px; /*position where enlarged image should offset horizontally */
-z-index: 50;
-}
-
-</style>
-
-<style type="text/css">
-
-.nesto{
-position: relative;
-
-
-}
-
-.thumbnail img{
-border: 1px solid white;
-margin: 0 5px 5px 0;
-}
-
-.thumbnail:hover{
-background-color: transparent;
-}
-
-.thumbnail:hover img{
-border: 1px solid blue;
-}
-
-.thumbnail span{ /*CSS for enlarged image*/
-position: absolute;
-background-color: lightyellow;
-padding: 5px;
-left: -1000px;
-border: 1px dashed gray;
-visibility: hidden;
-color: black;
-text-decoration: none;
-}
-
-.thumbnail span img{ /*CSS for enlarged image*/
-border-width: 0;
-padding: 2px;
-}
-
-.thumbnail:hover span{ /*CSS for enlarged image*/
-visibility: visible;
-top: 0;
-left: 230px; /*position where enlarged image should offset horizontally */
-z-index: 50;
-}
 
 #primer2 { position: relative; width: 110px }
 #primer2 ul { list-style:none; padding-left:5px }
@@ -174,6 +86,31 @@ z-index: 50;
     left: 100px;
 }
 #primer2 figcaption { color: gray; padding-left:10px }
+
+#primer3 { position: relative; left: 150px; top:-200px width: 110px }
+#primer3 ul { list-style:none; padding-left:5px }
+#primer3 img { border: 2px solid white; margin: 0 5px 5px 0 }
+#primer3 img:hover { border: 2px solid #FC8E02; background-color: transparent }
+#primer3 figure {
+    position: absolute;
+    background-color: #F7DFA3;
+    padding: 5px;
+    border: 1px dotted #FC8E02;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+#primer3 li:hover figure img {
+    border: none;
+    padding: 5px;
+    max-width: 550px;
+}
+#primer3 li:hover figure {
+    visibility: visible;
+    top: 0;
+    left: 100px;
+}
+#primer3 figcaption { color: gray; padding-left:10px }
 
 </style>
 
