@@ -6,7 +6,8 @@ div.tablica{
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-color: maroon;
-  align-items: center;
+  position: relative;
+  left: 500px;
 
 }
 
@@ -39,6 +40,7 @@ h1{
   color:maroon;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
    }
 
 p.citat{
@@ -58,6 +60,7 @@ div.prvi{
 
 p{
   color: white;
+  font-size: medium;
 }
 
 
