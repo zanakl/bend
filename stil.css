@@ -3,7 +3,7 @@ body
 { background-color:black;}
 
 div.tablica{
-  color:white;
+  color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-color: maroon;
   
@@ -149,6 +149,31 @@ top: 0;
 left: 230px; /*position where enlarged image should offset horizontally */
 z-index: 50;
 }
+
+#primer2 { position: relative; width: 110px }
+#primer2 ul { list-style:none; padding-left:5px }
+#primer2 img { border: 2px solid white; margin: 0 5px 5px 0 }
+#primer2 img:hover { border: 2px solid #FC8E02; background-color: transparent }
+#primer2 figure {
+    position: absolute;
+    background-color: #F7DFA3;
+    padding: 5px;
+    border: 1px dotted #FC8E02;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+#primer2 li:hover figure img {
+    border: none;
+    padding: 5px;
+    max-width: 550px;
+}
+#primer2 li:hover figure {
+    visibility: visible;
+    top: 0;
+    left: 100px;
+}
+#primer2 figcaption { color: gray; padding-left:10px }
 
 </style>
 
