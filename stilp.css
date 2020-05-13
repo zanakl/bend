@@ -32,7 +32,8 @@ div.drugi{
 
 div.tabla{
     position: relative;
-    left: 300px;
+    left: 120px;
     top: -150px;
+    border-style: dotted;
     
 }
