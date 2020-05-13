@@ -29,3 +29,10 @@ div.drugi{
     top: 0px;
     left:0px;
 }
+
+div.tabla{
+    position: relative;
+    left: 500px;
+    top: -150px;
+    border-style: double;
+}
