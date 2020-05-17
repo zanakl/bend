@@ -8,6 +8,8 @@ div.tablica{
   border-color: maroon;
   position: relative;
   left: 500px;
+  width="40%";
+
 
 }
 
@@ -115,6 +117,6 @@ p{
 }
 #primer3 figcaption { color: gray; padding-left:10px }
 
-</style>
+
 
 
