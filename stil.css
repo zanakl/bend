@@ -9,6 +9,7 @@ div.tablica{
   position: relative;
   left: 500px;
   border: maroon;
+  border-width: 5px;
 
 }
 
