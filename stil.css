@@ -8,7 +8,7 @@ div.tablica{
   border-color: maroon;
   position: relative;
   left: 500px;
-  background-color: maroon;
+  border: maroon;
 
 }
 
